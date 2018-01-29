@@ -222,7 +222,7 @@ desired effect
             <a href="#" data-toggle="control-sidebar"><i class="fa fa-gears"></i></a>
           </li>
           <li>
-            <a href="#" data-toggle="control-sidebar"><i class="fa fa-question-circle"></i></a>
+            <a href="#" data-toggle="about-sidebar"><i class="fa fa-question-circle"></i></a>
           </li>
         </ul>
       </div>
@@ -262,7 +262,17 @@ desired effect
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="#"><i class="fa fa-book"></i> <span>Справочники</span></a></li>
+        <li class="treeview active">
+          <a href="#"><i class="fa fa-book"></i> <span>Справочники</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+              </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="#">Карты</a></li>
+          </ul>
+        </li>
         <li><a href="#"><i class="fa fa-file-archive-o"></i> <span>Документы</span></a></li>
         <li class="treeview">
           <a href="#"><i class="fa fa-credit-card"></i> <span>Операции с картами</span>
@@ -282,8 +292,8 @@ desired effect
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Link in level 2</a></li>
-            <li><a href="#">Link in level 2</a></li>
+            <li><a href="#">Детализация</a></li>
+            <li><a href="#">Активность</a></li>
           </ul>
         </li>
       </ul>
@@ -400,6 +410,11 @@ desired effect
       <!-- /.tab-pane -->
     </div>
   </aside>
+
+  <aside class="about-sidebar control-sidebar-dark">
+
+  </aside>
+
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed
   immediately after the control sidebar -->
