@@ -7,8 +7,8 @@
 * @Author  Almsaeed Studio
 * @Support <https://www.almsaeedstudio.com>
 * @Email   <abdullah@almsaeedstudio.com>
-* @version 0.1.0
-* @repository git://github.com/DVxa/admin.git
+* @version 2.4.2
+* @repository git://github.com/almasaeed2010/AdminLTE.git
 * @license MIT <http://opensource.org/licenses/MIT>
 */
 
@@ -1083,7 +1083,7 @@ throw new Error('AdminLTE requires jQuery')
   };
 
   // Private
-
+  
   Tree.prototype._setUpListeners = function () {
     var that = this;
 
